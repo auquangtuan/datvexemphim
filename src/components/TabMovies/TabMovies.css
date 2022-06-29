@@ -1,0 +1,72 @@
+@import 'antd/dist/antd.css';
+
+.TabMovies {
+    height: 490px;
+    max-width: 1110px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    margin-bottom: 4rem;
+    overflow: hidden;
+}
+
+
+.tabmovies_img {
+   width: 50px;
+   height: 50px;
+   padding: 4px 4px;
+}
+.phim_container,
+.cumrap_container {
+    display: flex;
+    width: 41vw;
+}
+@media (max-width: 700px) {
+    .cumrap_container {
+        width: 100px;
+        overflow: hidden; 
+    }
+}
+.phim_img,
+.cumrap_img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.tenCumRap {
+    font-size: 1rem;
+    padding: 0 12px;
+    color: var(--color-orange);
+}
+.cumrap_diachi {
+    padding: 0 12px;
+}
+.cumrap_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.phim_img {
+    margin: 12px 0;
+}
+.phim_container {
+    padding: 12px 0;
+}
+.lstLichChieuTheoPhim{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ngayChieuGioChieu_container {
+    margin: 8px 0;
+
+}
+.ngayChieuGioChieu {
+    padding: 8px 12px;
+    border-radius: 12px;
+    background: var(--color-orange);
+    color: var(--bg-white);
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+}

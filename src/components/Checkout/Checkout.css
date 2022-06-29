@@ -1,0 +1,26 @@
+@import '~antd/dist/antd.css';
+.ghe {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 12px;
+    background-color: rgb(123,122,122);
+    color: #fff;
+}
+
+.gheDaDat {
+    background-color: rgb(11, 255, 113);
+    cursor: no-drop;
+
+}
+
+.gheDangDat {
+    background-color: rgb(45, 5, 223) !important;
+
+}
+
+.gheVip {
+    background-color: rgb(228,74,8);
+}

@@ -1,0 +1,29 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+html,body {
+    font-size : 16px
+}
+
+:root {
+    --bg-black : #000;
+    --bg-white : #fff;
+    --color-orange: #fb4226;
+}
+
+.webkitTabMovies {
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+    &::-webkit-scrollbar:vertical {
+        width: 11px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: darken(#ebecf0 , 15);
+        border: 11px solid #ebecf0;
+        border-radius: 5px;
+    }
+}
