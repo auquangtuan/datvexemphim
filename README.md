@@ -6,7 +6,3 @@
 
  
 ## API do Cyberlearn cung cấp.
-
-#### Đã Deploy Tại Website : https://auqa.fun
-#### Tài Khoản : a123
-#### Mật Khẩu : 123
